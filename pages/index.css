@@ -6,126 +6,42 @@
   font-family: "Inter", "Arial", "sans-serif";
   font-size: 16px;
   line-height: 20px;
-  margin: 0 auto;
 }
 
 .header {
-  background-color: #ffffff;
-  background-image: url("./images/background_header.svg");
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  background: #fff url("../images/background_header.svg") no-repeat center/cover;
 }
 
-.header__logo {
-  position: absolute;
+.logo {
   width: 125px;
   height: 142px;
-  top: 30px;
+  position: absolute;
   left: 30px;
+  top: 30px;
   bottom: 80px;
 }
 
 .nav {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
 }
 
 .nav__links {
-  list-style: none;
-  top: 30px;
-  left: 80px;
   display: flex;
-  align-items: center;
   column-gap: 20px;
 }
 
-.nav__link {
-  color: #000000;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.nav__link:hover {
-  background-color: #2f80ed;
-  transition: background-color 1s linear 0.5s;
-}
-
-.header {
-  min-height: 720px;
-  max-height: 800px;
-}
-
-.header__title {
+.header_title {
   max-width: 729px;
-  top: 202px;
-  left: 80px;
-  bottom: 28px;
+  margin-top: 202px;
+  margin-left: 80px;
 }
 
-.header__description {
+.header_description {
   max-width: 683px;
-}
-
-.header__image {
-  position: absolute;
-  size: cover;
-  width: 646px;
-  height: 568px;
-}
-
-.header__footer {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-}
-
-.header__span-accent {
-  font-family: Noto Serif;
-  font-style: italic;
-  font-weight: normal;
-  font-size: 60px;
-  line-height: 72px;
-  color: #2f80ed;
-}
-
-.header__title {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 60px;
-  line-height: 72px;
-  max-width: 729px;
-  top: 202px;
-  left: 80px;
-}
-
-.header__description {
-  font-family: Noto Serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 30px;
-  max-width: 638px;
-  top: 28px;
-  left: 80px;
-}
-
-.header__hours {
-  left: 80px;
-  bottom: 40px;
-}
-/**Section 2 */
-.menu {
-  background-color: #0a2750;
-}
-
-.list-item {
-  list-style: none;
-}
-/**Section 3 */
-.recipes {
-  background-color: #ffffff;
+  margin-top: ;
 }
