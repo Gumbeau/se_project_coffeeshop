@@ -43,5 +43,24 @@
 
 .header_description {
   max-width: 683px;
-  margin-top: ;
+  margin-top: 28px;
+  margin-left: 80px;
+}
+
+.header__image {
+  width: 646px;
+  height: 568px;
+  position: absolute;
+  margin-top: 124px;
+  margin-right: 5px;
+}
+
+.header_footer {
+  position: absolute;
+  bottom: 40px;
+  left: 80px;
+}
+
+.header__hours {
+  margin: 0;
 }
