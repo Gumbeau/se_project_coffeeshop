@@ -21,7 +21,7 @@
   position: absolute;
   left: 30px;
   top: 30px;
-  bottom: 80px;
+  right: 80px;
 }
 
 .nav {
@@ -33,11 +33,17 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  top: 30px;
+  left: 80px;
 }
 
 .nav__links {
   display: flex;
   column-gap: 20px;
+}
+
+.nav__link {
+  color: black;
 }
 
 .header_title {
@@ -88,6 +94,11 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  display: flex;
+  align-content: flex-end;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: calc(100% - 100px);
 }
 
 .header__hours {
