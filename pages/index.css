@@ -8,6 +8,10 @@
   line-height: 20px;
 }
 
+.body {
+  margin: 0;
+}
+
 .header {
   height: 100vh;
   min-height: 720px;
@@ -33,17 +37,22 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  top: 30px;
-  left: 80px;
+  padding-top: 30px;
+  padding-right: 80px;
 }
 
 .nav__links {
-  display: flex;
   column-gap: 20px;
+  display: flex;
 }
 
 .nav__link {
   color: black;
+}
+
+.nav__link:hover {
+  transition-duration: 2s;
+  color: blue;
 }
 
 .header_title {
