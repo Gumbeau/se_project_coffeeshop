@@ -28,6 +28,11 @@
   display: flex;
   justify-content: flex-end;
   align-items: baseline;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .nav__links {
@@ -39,28 +44,58 @@
   max-width: 729px;
   margin-top: 202px;
   margin-left: 80px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 72px;
+}
+
+.header__title {
+  font-family: Noto Serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 72px;
+  color: #2f80ed;
 }
 
 .header_description {
   max-width: 683px;
   margin-top: 28px;
   margin-left: 80px;
+  font-family: Noto Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .header__image {
   width: 646px;
   height: 568px;
   position: absolute;
-  margin-top: 124px;
-  margin-right: 5px;
+  top: 124px;
+  right: 5px;
 }
 
 .header_footer {
   position: absolute;
   bottom: 40px;
   left: 80px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .header__hours {
+  margin: 0;
+}
+
+.header__address {
+  bottom: 40px;
+  left: 80px;
   margin: 0;
 }
