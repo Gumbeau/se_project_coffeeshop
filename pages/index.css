@@ -147,6 +147,7 @@
   font-size: 20px;
   line-height: 30px;
 }
+
 .card {
   max-width: 600px;
   bottom: 100px;
@@ -158,8 +159,8 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-  padding-right: 100px;
-  padding-bottom: 100px;
+  right: 100px;
+  bottom: 100px;
 }
 
 .card__title {
@@ -172,6 +173,7 @@
 }
 
 .card__list-item {
+  gap: 16px;
   font-family: Noto Serif;
   font-style: normal;
   font-weight: normal;
