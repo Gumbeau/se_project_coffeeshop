@@ -127,7 +127,6 @@
 }
 
 .menu_title {
-  max-width: 780px;
   top: 100px;
   bottom: 24px;
   font-family: "Inter", serif;
@@ -135,7 +134,6 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  position: abosolute;
   text-align: center;
 }
 
@@ -145,8 +143,11 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-  position: absolute;
   text-align: center;
+}
+
+.menu_card {
+  display: flex;
 }
 
 .card {
@@ -180,4 +181,16 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
+  display: flex;
+  align-items: baseline;
+}
+
+.card__list-divider {
+  display: block;
+  min-width: 50px;
+  height: 1px;
+  background-color: #d9e7ff;
+  margin-left: 8px;
+  margin-right: 8px;
+  flex-grow: 1;
 }
