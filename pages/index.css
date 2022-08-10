@@ -154,6 +154,7 @@
   max-width: 600px;
   bottom: 100px;
   right: 100px;
+  list-style-type: none;
 }
 
 .card_content {
