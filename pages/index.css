@@ -152,8 +152,8 @@
 
 .card {
   max-width: 600px;
-  bottom: 100px;
-  right: 100px;
+  padding-bottom: 100px;
+  padding-right: 100px;
   list-style-type: none;
 }
 
@@ -162,12 +162,12 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-  right: 100px;
-  bottom: 100px;
+  padding-right: 100px;
+  padding-bottom: 100px;
 }
 
 .card__title {
-  bottom: 32px;
+  padding-bottom: 32px;
   font-family: Inter;
   font-style: normal;
   font-weight: bold;
