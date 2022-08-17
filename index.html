@@ -9,7 +9,7 @@
     <meta name="keywords" content="Project 2, HTML, CSS" />
     <title>Practicum Coffee Shop Library</title>
     <link rel="stylesheet" href="./pages/style.css" />
-    <link rel="stylesheet" href="./styles/normalize.css" />
+    <link rel="stylesheet" href="./vendor/normalize.css" />
     <!--First font-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -176,27 +176,42 @@
           <form class="reservation__form">
             <fieldset class="form__fieldset">
               <label class="form__label"
-                >Name* <input type="text" placeholder="Name Surname" required
+                >Name*
+                <input
+                  class="form__input"
+                  type="text"
+                  placeholder="Name Surname"
+                  required
               /></label>
               <label class="form__label"
                 >Number of guests*
-                <input type="number" placeholder="1-8" required
+                <input
+                  class="form__input"
+                  type="number"
+                  placeholder="1-8"
+                  required
               /></label>
               <label class="form__label"
                 >Date & time*
-                <input type="datetime-local" required />
+                <input class="form__input" type="datetime-local" required />
               </label>
               <label class="form__label"
                 >Your email*<input
+                  class="form__input"
                   type="email"
                   placeholder="email@email.com"
                   required
               /></label>
             </fieldset>
-            <button class="form__button" type="button">Book a table</button>
-            <label class="form__checkbox"
-              >I agree with the terms of use<input type="checkbox"
-            /></label>
+            <fieldset class="form__fieldset">
+              <button class="form__button" type="button">Book a table</button>
+            </fieldset>
+            <fieldset class="form__fieldset form__fieldset_checkbox">
+              <label class="form__checkbox">
+                <input class="form__checkbox__input" type="checkbox" />I agree
+                with the terms of use</label
+              >
+            </fieldset>
           </form>
         </section>
         <section id="about" class="about"></section>
