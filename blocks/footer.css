@@ -26,9 +26,21 @@
 
 .footer__list-item {
   color: #fff;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .footer__copyright {
   color: #fff;
-  margin-bottom: 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  padding-bottom: 60px;
+  padding-top: 108px;
+  padding-left: 80px;
 }
