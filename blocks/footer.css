@@ -1,0 +1,34 @@
+.footer {
+  background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
+}
+
+.footer__content {
+  display: flex;
+}
+
+.footer__logo {
+  width: 116px;
+  height: 21px;
+  margin-left: 80px;
+  margin-bottom: 108px;
+  padding-top: 60px;
+  margin-right: auto;
+}
+
+.footer__social-heading {
+  color: #fff;
+}
+
+.footer__list {
+  list-style-type: none;
+  margin-right: 100px;
+}
+
+.footer__list-item {
+  color: #fff;
+}
+
+.footer__copyright {
+  color: #fff;
+  margin-bottom: 0;
+}

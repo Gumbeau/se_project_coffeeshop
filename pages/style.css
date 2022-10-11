@@ -1,5 +1,7 @@
 @import url("./vendor/normalize.css");
 
+@import url(../blocks/footer.css);
+
 .page {
   min-width: 1100px;
   max-width: 1600px;
@@ -365,7 +367,7 @@
   line-height: 52px;
   max-width: 251px;
   left: 80px;
-  top: 70px;
+  top: 100px;
   position: absolute;
 }
 
@@ -400,7 +402,7 @@
 
 .about__circle_animation_blurred {
   transform-origin: center;
-  animation: pulsate 1.3s linear infinite;
+  animation: pulsate 1.3s ease-in-out infinite;
 }
 
 @keyframes pulsate {
@@ -417,6 +419,26 @@
   }
 }
 
-.footer {
-  background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
+.footer__social-heading {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.footer__list-item {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.footer__copyright {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
 }
