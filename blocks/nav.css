@@ -1,0 +1,26 @@
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  padding-top: 30px;
+  padding-right: 80px;
+}
+
+.nav__links {
+  column-gap: 20px;
+  display: flex;
+}
+
+.nav__link {
+  color: black;
+}
+
+.nav__link:hover {
+  transition-duration: 2s;
+  color: blue;
+}
