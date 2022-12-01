@@ -5,7 +5,7 @@
   background: #fff url("../images/background_header.svg") no-repeat center/cover;
 }
 
-.header_title {
+.header__title {
   max-width: 729px;
   margin-top: 202px;
   margin-left: 80px;
@@ -16,7 +16,7 @@
   line-height: 72px;
 }
 
-.header__title {
+.header__title-span {
   font-family: "Noto Serif";
   font-style: italic;
   font-weight: normal;
@@ -61,7 +61,7 @@
   color: #6f6f6f;
 }
 
-.header__hours {
+.header__paragraph {
   margin: 0;
 }
 
