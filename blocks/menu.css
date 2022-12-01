@@ -3,7 +3,7 @@
   color: #fff;
 }
 
-.menu_title {
+.menu__title {
   width: 780px;
   padding-top: 100px;
   padding-bottom: 24px;
@@ -16,7 +16,7 @@
   margin: auto;
 }
 
-.menu_subtitle {
+.menu__subtitle {
   width: 780px;
   font-family: "Noto Serif";
   font-style: normal;
