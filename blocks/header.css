@@ -3,6 +3,7 @@
   min-height: 720px;
   max-height: 800px;
   background: #fff url("../images/background_header.svg") no-repeat center/cover;
+  position: relative;
 }
 
 .header__title {
