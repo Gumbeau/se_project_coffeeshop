@@ -64,10 +64,6 @@
 
 .header__paragraph {
   margin: 0;
-}
-
-.header__address {
   bottom: 40px;
   left: 80px;
-  margin: 0;
 }
