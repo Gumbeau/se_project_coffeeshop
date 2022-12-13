@@ -28,10 +28,12 @@
 }
 
 .menu__card {
+  padding: 0;
   display: flex;
   flex-wrap: wrap;
-  margin: 0 auto;
-  padding-left: 100px;
+}
+
+.menu__cards {
+  display: flex;
   justify-content: center;
-  padding-top: 100px;
 }
