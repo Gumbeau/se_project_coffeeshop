@@ -35,6 +35,7 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+  z-index: 3;
 }
 
 .header__image {
