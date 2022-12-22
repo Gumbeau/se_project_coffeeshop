@@ -7,7 +7,7 @@
 .reservation__input {
   border-radius: 4px;
   padding: 19px 20px;
-  font-family: Inter;
+  font-family: Inter, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -19,7 +19,7 @@
   border-radius: 4px;
   color: white;
   background-color: #2f80ed;
-  font-family: Inter;
+  font-family: Inter, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -42,7 +42,7 @@
   flex-direction: column;
   row-gap: 8px;
   margin-bottom: 32px;
-  font-family: Inter;
+  font-family: Inter, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;

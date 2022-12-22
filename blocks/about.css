@@ -10,7 +10,7 @@
 
 .about__title {
   z-index: 2;
-  font-family: "Inter", serif;
+  font-family: "Inter", Arial, Helvetica;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -38,13 +38,16 @@
 }
 
 .about__paragraph {
-  margin: 0 0 20px;
   padding-left: 80px;
   font-family: "Noto Serif", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+}
+
+.about__paragraph:last-child {
+  margin-bottom: 0;
 }
 
 .about__circle_animation_blurred {

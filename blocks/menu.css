@@ -7,7 +7,7 @@
   width: 780px;
   padding-top: 100px;
   padding-bottom: 24px;
-  font-family: "Inter", serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -18,7 +18,7 @@
 
 .menu__subtitle {
   width: 780px;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
