@@ -3,7 +3,7 @@
   overflow: hidden;
   background-color: #0a2850;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   color: #fff;
   box-sizing: border-box;
 }
@@ -38,12 +38,12 @@
 }
 
 .about__paragraph {
-  padding-left: 80px;
   font-family: "Noto Serif", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+  margin: 0 0 20px;
 }
 
 .about__paragraph:last-child {
